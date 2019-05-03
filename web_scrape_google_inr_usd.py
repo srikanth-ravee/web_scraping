@@ -36,7 +36,7 @@ except Exception:
 gmail_user = secred.gmail_user
 gmail_password = secred.gmail_password
 sent_from = gmail_user
-to = ['rite2ravee@gmail.com']#, 'surveabhishek22@gmail.com']
+to = ['rite2ravee@gmail.com','surveabhishek22@gmail.com']
 subject = 'USD to INR Update'
 body = "INR: {} for {} USD".format(output_value, input_value)
 
